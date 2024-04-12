@@ -10,6 +10,7 @@ def main():
     send_mail(contacts, message_body, subject)
 
 
+
 def csv_to_lst_tuples(filename):
     with open(filename, 'r') as file:
         reader = csv.reader(file)
